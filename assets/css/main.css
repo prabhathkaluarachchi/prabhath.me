@@ -577,8 +577,8 @@ h6 {
 }
 
 .page-title .heading {
-  padding: 160px 0 80px 0;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  padding-top: 120px;
+  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
 }
 
 .page-title .heading h1 {
@@ -586,30 +586,6 @@ h6 {
   font-weight: 700;
 }
 
-.page-title nav {
-  background-color: color-mix(in srgb, var(--default-color), transparent 90%);
-  padding: 20px 0;
-}
-
-.page-title nav ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.page-title nav ol li+li {
-  padding-left: 10px;
-}
-
-.page-title nav ol li+li::before {
-  content: "/";
-  display: inline-block;
-  padding-right: 10px;
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
 
 /*--------------------------------------------------------------
 # Global Sections
@@ -622,6 +598,7 @@ section,
   scroll-margin-top: 100px;
   overflow: clip;
   padding-top: 10%;
+
 }
 
 @media (max-width: 1199px) {
@@ -637,7 +614,7 @@ section,
 # Global Section Titles
 --------------------------------------------------------------*/
 .section-title {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   position: relative;
 }
 
@@ -670,6 +647,7 @@ section,
   font-weight: 700;
   text-transform: uppercase;
   font-family: var(--heading-font);
+
 }
 
 /*--------------------------------------------------------------
@@ -1058,149 +1036,6 @@ section,
   border: 2px solid var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# Services Section
---------------------------------------------------------------*/
-.services .service-item {
-  background-color: var(--surface-color);
-  text-align: center;
-  padding: 80px 20px;
-  transition: all ease-in-out 0.3s;
-  height: 100%;
-}
-
-.services .service-item .icon {
-  margin: 0 auto;
-  width: 64px;
-  height: 64px;
-  background: var(--accent-color);
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  transition: 0.3s;
-  transform-style: preserve-3d;
-}
-
-.services .service-item .icon i {
-  color: var(--contrast-color);
-  font-size: 28px;
-  transition: ease-in-out 0.3s;
-}
-
-.services .service-item .icon::before {
-  position: absolute;
-  content: "";
-  left: -8px;
-  top: -8px;
-  height: 100%;
-  width: 100%;
-  background: color-mix(in srgb, var(--accent-color), transparent 80%);
-  border-radius: 5px;
-  transition: all 0.3s ease-out 0s;
-  transform: translateZ(-1px);
-}
-
-.services .service-item h3 {
-  font-weight: 700;
-  margin: 10px 0 15px 0;
-  font-size: 22px;
-}
-
-.services .service-item p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.services .service-item:hover {
-  background: var(--accent-color);
-  border-color: var(--accent-color);
-}
-
-.services .service-item:hover .icon {
-  background: var(--surface-color);
-}
-
-.services .service-item:hover .icon i {
-  color: var(--accent-color);
-}
-
-.services .service-item:hover .icon::before {
-  background: color-mix(in srgb, var(--background-color), transparent 70%);
-}
-
-.services .service-item:hover h3,
-.services .service-item:hover p {
-  color: var(--contrast-color);
-}
-
-/*--------------------------------------------------------------
-# Service Details Section
---------------------------------------------------------------*/
-.service-details .services-list {
-  background-color: var(--surface-color);
-  padding: 10px 30px;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  margin-bottom: 20px;
-}
-
-.service-details .services-list a {
-  display: block;
-  line-height: 1;
-  padding: 8px 0 8px 15px;
-  border-left: 3px solid color-mix(in srgb, var(--default-color), transparent 70%);
-  margin: 20px 0;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  transition: 0.3s;
-}
-
-.service-details .services-list a.active {
-  color: var(--heading-color);
-  font-weight: 700;
-  border-color: var(--accent-color);
-}
-
-.service-details .services-list a:hover {
-  border-color: var(--accent-color);
-}
-
-.service-details .services-img {
-  margin-bottom: 20px;
-}
-
-.service-details h3 {
-  font-size: 26px;
-  font-weight: 700;
-}
-
-.service-details h4 {
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.service-details p {
-  font-size: 15px;
-}
-
-.service-details ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-
-.service-details ul li {
-  padding: 5px 0;
-  display: flex;
-  align-items: center;
-}
-
-.service-details ul i {
-  font-size: 20px;
-  margin-right: 8px;
-  color: var(--accent-color);
-}
 
 /*--------------------------------------------------------------
 # Portfolio Section
@@ -1314,81 +1149,12 @@ section,
   transform: scale(1.1);
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details Section
---------------------------------------------------------------*/
-.portfolio-details .portfolio-details-slider img {
-  width: 100%;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: color-mix(in srgb, var(--default-color), transparent 85%);
-  opacity: 1;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--accent-color);
-}
-
-.portfolio-details .portfolio-info {
-  background-color: var(--surface-color);
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
-}
-
-.portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
-}
-
-.portfolio-details .portfolio-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-
-.portfolio-details .portfolio-info ul li+li {
-  margin-top: 10px;
-}
-
-.portfolio-details .portfolio-description {
-  padding-top: 30px;
-}
-
-.portfolio-details .portfolio-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.portfolio-details .portfolio-description p {
-  padding: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
-}
-
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
 
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-item {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  padding: 20px 30px;
 }
 
 .contact .info-item .icon {
@@ -1442,39 +1208,76 @@ section,
   }
 }
 
-.contact .php-email-form input[type=text],
-.contact .php-email-form input[type=email],
-.contact .php-email-form textarea {
-  color: var(--default-color);
-  background-color: color-mix(in srgb, var(--background-color), transparent 50%);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
-  font-size: 14px;
-  padding: 10px 15px;
-  box-shadow: none;
-  border-radius: 0;
+/*--------------------------------------------------------------
+# Contact Form
+--------------------------------------------------------------*/
+.contact-form {
+
+  border-radius: 8px; /* Rounded corners */
+  padding: 30px; /* Padding around the form */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Align items in a column */
+  margin-top: 50px; /* Margin above the form */
 }
 
-.contact .php-email-form input[type=text]:focus,
-.contact .php-email-form input[type=email]:focus,
-.contact .php-email-form textarea:focus {
-  border-color: var(--accent-color);
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Light border */
+  border-radius: 5px; /* Slightly rounded corners */
+  padding: 15px; /* Inner padding */
+  margin-bottom: 15px; /* Spacing between fields */
+  font-size: 16px; /* Font size for inputs */
+  color: whitesmoke; /* Text color */
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+  transition: border-color 0.3s; /* Transition for border color */
 }
 
-.contact .php-email-form input[type=text]::placeholder,
-.contact .php-email-form input[type=email]::placeholder,
-.contact .php-email-form textarea::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
+/* Focus styles */
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  border-color: var(--accent-color); /* Change border color on focus */
+  outline: none; /* Remove default outline */
 }
 
-.contact .php-email-form button[type=submit] {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  border: 0;
-  padding: 10px 30px;
-  transition: 0.4s;
-  border-radius: 50px;
+/* Textarea specific styles */
+.contact-form textarea {
+  resize: none; /* Prevent resizing */
+  height: 150px; /* Fixed height */
 }
 
-.contact .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+/* Button styles */
+.contact-form button {
+  background-color: var(--accent-color); /* Background color for buttons */
+  color: #fff; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 15px; /* Padding for buttons */
+  cursor: pointer; /* Pointer on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s; /* Transition for background color */
+  margin-top: 10px; /* Margin above the button */
 }
+
+.contact-form button:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 30%); /* Darken on hover */
+}
+
+@media (max-width: 575px) {
+  .contact-form {
+    padding: 20px; /* Adjust padding on smaller screens */
+  }
+
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    font-size: 14px; /* Smaller font size on mobile */
+  }
+
+  .contact-form button {
+    font-size: 14px; /* Smaller font size on mobile */
+  }
+}
+
