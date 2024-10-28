@@ -621,12 +621,14 @@ section,
   padding: 60px 0;
   scroll-margin-top: 100px;
   overflow: clip;
+  padding-top: 10%;
 }
 
 @media (max-width: 1199px) {
 
   section,
   .section {
+    padding-top: 20%;
     scroll-margin-top: 66px;
   }
 }
