@@ -789,7 +789,7 @@ section,
 }
 
 .stats .stats-item {
-  background-color: var(--surface-color);
+  background-color: rgba(255, 255, 255, 0.1);
   margin-top: -27px;
   padding: 30px 30px 25px 30px;
   width: 100%;
