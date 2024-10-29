@@ -53,6 +53,7 @@ body {
   background-color: var(--background-color);
   font-family: var(--default-font);
   background-image: "assets/img/hero-bg.jpg";
+;
 }
 
 a {
@@ -432,7 +433,7 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   background-color: rgba(8, 27, 41, 0.2);
-  font-size: 16px;
+  font-size: 25px;
   text-align: center;
   padding: 10px 0;
   position: relative;
@@ -455,11 +456,11 @@ h6 {
 }
 
 .footer .social-links {
-  margin: 0 0 30px 0;
+  margin: 0 0 50px 0;
 }
 
 .footer .social-links a {
-  font-size: 16px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -469,8 +470,8 @@ h6 {
   margin: 0 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   transition: 0.3s;
 }
 
@@ -577,8 +578,9 @@ h6 {
 }
 
 .page-title .heading {
-  padding-top: 120px;
+  padding-top: 100px;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
+  margin-bottom: -5%;
 }
 
 .page-title .heading h1 {
@@ -701,7 +703,7 @@ section,
 .hero .social-links a {
   background-color: color-mix(in srgb, var(--default-color), transparent 90%);
   color: var(--default-color);
-  font-size: 14px;
+  font-size: 18px;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -822,6 +824,7 @@ section,
   display: block;
   background: none;
   border-radius: 0;
+
 }
 
 .skills .progress .skill {
@@ -855,7 +858,7 @@ section,
 # Interests Section
 --------------------------------------------------------------*/
 .interests .features-item {
-  background-color: var(--surface-color);
+  background-color: rgba(255, 255, 255, 0.1);
   display: flex;
   align-items: center;
   padding: 20px;
@@ -950,7 +953,7 @@ section,
   font-style: italic;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
-  background: var(--surface-color);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 6px;
   position: relative;
   z-index: 1;
@@ -1155,6 +1158,7 @@ section,
 --------------------------------------------------------------*/
 .contact .info-item {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  margin-left: 30px;
 }
 
 .contact .info-item .icon {
