@@ -2,8 +2,6 @@
 
 Welcome to my portfolio website! This site is a showcase of my work, skills, and projects in web development, UI/UX design, and beyond. Dive in to explore my journey, experiences, and the projects I've been working on.
 
-![Portfolio Preview](assets/img/web/webui.png) <!-- Replace with a preview image or remove this line if not applicable -->
-
 ## 🚀 About Me
 Hi there! I'm **Prabhath Kaluarachchi**, an aspiring software engineer and creative designer. I specialize in building user-friendly, visually appealing, and high-performing web applications. I enjoy crafting unique experiences and always strive to push the boundaries of what's possible.
 
@@ -27,7 +25,7 @@ Check out my live website here: [prabhath.me](https://prabhath.me)
 - **SEO Friendly**: Structured with best practices for search engine optimization.
 
 ## 📸 Preview
-![Portfolio Mobile View](assets/img/web/mobui.jpeg) <!-- Replace with an actual mobile view screenshot -->
+![Portfolio Mobile View](assets/img/web/webui.png) <!-- Replace with an actual mobile view screenshot -->
 
 ## 📞 Connect with Me
 - [LinkedIn](https://www.linkedin.com/in/prabhathkaluarachchi)
