@@ -2,7 +2,7 @@
 
 Welcome to my portfolio website! This site is a showcase of my work, skills, and projects in web development, UI/UX design, and beyond. Dive in to explore my journey, experiences, and the projects I've been working on.
 
-![Portfolio Preview](assets/img/hero-bg.jpg) <!-- Replace with a preview image or remove this line if not applicable -->
+![Portfolio Preview](https://drive.google.com/file/d/1wgSyIdTXfTJV8HU8G3zdb-87YA8OeisQ/preview) <!-- Replace with a preview image or remove this line if not applicable -->
 
 ## 🚀 About Me
 Hi there! I'm **Prabhath Kaluarachchi**, an aspiring software engineer and creative designer. I specialize in building user-friendly, visually appealing, and high-performing web applications. I enjoy crafting unique experiences and always strive to push the boundaries of what's possible.
