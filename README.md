@@ -29,8 +29,8 @@ Check out my live website here: [prabhath.me](https://prabhath.me)
 
 ## 📞 Connect with Me
 - [LinkedIn](https://www.linkedin.com/in/prabhathkaluarachchi)
-- [GitHub](https://github.com/yourusername)
-- [Twitter](https://twitter.com/yourusername)
+- [GitHub](https://github.com/prabhathkaluarachchi)
+- [Whatsapp](https://wa.me/94772347420)
 
 ---
 
