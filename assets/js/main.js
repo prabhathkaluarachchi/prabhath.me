@@ -1,10 +1,10 @@
-/**
-* Template Name: Personal
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+// Disable right-click with custom message
+document.addEventListener("contextmenu", function (event) {
+  event.preventDefault();
+  alert("Right Click was disabled by Administrator Prabhath Kaluarachchi");
+});
+
+
 
 (function() {
   "use strict";
